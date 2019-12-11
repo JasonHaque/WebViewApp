@@ -11,5 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         webview.loadUrl("https://github.com")
+        webview.settings.javaScriptEnabled = true
     }
 }
